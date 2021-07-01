@@ -31,7 +31,7 @@ function setup() {
 
   for(var i=0;i<=8;i++){
     var x=random(width/2-200,width/2+300);
-    var y=random(-10,140);
+    var y=random(-10,100);
     var stone=new Stone(x,y,80);
     stones.push(stone);
 
